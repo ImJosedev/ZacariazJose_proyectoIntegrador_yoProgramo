@@ -1,0 +1,9 @@
+.row{
+    background: #999999;
+    padding: 20px;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}

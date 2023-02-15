@@ -1,0 +1,56 @@
+.row{
+    padding: 30px;
+    /* color: #fff; */
+    display: flex;
+    align-items: center;
+}
+div{
+    background-color: #999999;
+    text-align: center;
+}
+#mifoto{
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px grey;
+    width: 100px;
+    margin-left: 2px;
+
+    transition: all .5s ease;
+}
+#mifoto:hover{
+    width: 200px;
+}
+
+ /* @media(min-width: 576px){
+    #mifoto{
+        position: absolute;
+        width: 8%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 3px grey;
+        left: 5%;
+    }
+} */
+
+/* @media(max-width: 575px){
+    #mifoto{
+        position: absolute;
+        width: 30%;
+        align-items: center;
+        border-radius: 20%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 500px;
+    }
+}  */
+#nombre {
+    font-weight: 600;
+    margin: 0;
+}
+#mititulo{
+    padding: 10px;
+    border-top: 1px solid black;
+}
+.sobremi{
+    font-size: 3em;
+    font-weight: 700;
+    
+}
